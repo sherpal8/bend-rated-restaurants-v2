@@ -6,4 +6,8 @@ app.use(express.json());
 
 app.use("/api", apiRouter);
 
+// TODO: 404 for stray endpoints
+
+// TODO: error handlers
+
 module.exports = app;

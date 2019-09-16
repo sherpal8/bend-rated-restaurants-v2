@@ -4,8 +4,9 @@
   "description": "## A micro [yelp](https://www.yelp.co.uk/c/manchester/restaurants) clone API using Express and SQL",
   "main": "index.js",
   "scripts": {
-    "test": "seed && mocha spec/",
-    "seed": "psql -f db/seed.sql > output.txt",
+    "test": "npm run seed && mocha spec/",
+    "seed": "psql -f db/seed.sql",
+    "seedOutput": "psql -f db/seed.sql > output.txt",
     "dev": "nodemon listen.js"
   },
   "repository": {
