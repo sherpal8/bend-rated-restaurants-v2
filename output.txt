@@ -1,0 +1,39 @@
+DROP DATABASE
+CREATE DATABASE
+You are now connected to database "manchester_restaurants" as user "sherpal".
+CREATE TABLE
+INSERT 0 3
+CREATE TABLE
+INSERT 0 3
+CREATE TABLE
+INSERT 0 3
+CREATE TABLE
+INSERT 0 3
+ area_id |      areaname      
+---------+--------------------
+       1 | Greater Manchester
+       2 | Lesser Manchester
+       3 | Gipton
+(3 rows)
+
+ restaurant_id | restaurantname | area_id | cuisine |          website           
+---------------+----------------+---------+---------+----------------------------
+             1 | Zizzi          |       1 | Italian | https://www.zizzi.com
+             2 | Wagamamas      |       3 | Fusion  | https://www.wagamama.com
+             3 | Harvesters     |       2 | English | https://www.harvesters.com
+(3 rows)
+
+ comment_id | restaurant_id |           body           |         created_at         
+------------+---------------+--------------------------+----------------------------
+          1 |             1 | Amazing food and service | 2019-09-16 15:33:23.736036
+          2 |             2 | Friendly staff           | 2019-09-16 15:33:23.736036
+          3 |             3 | Poor service             | 2019-09-16 15:33:23.736036
+(3 rows)
+
+ rating_id | restaurant_id | rating |         created_at         
+-----------+---------------+--------+----------------------------
+         1 |             1 |      8 | 2019-09-16 15:33:23.740799
+         2 |             2 |      9 | 2019-09-16 15:33:23.740799
+         3 |             3 |      7 | 2019-09-16 15:33:23.740799
+(3 rows)
+
