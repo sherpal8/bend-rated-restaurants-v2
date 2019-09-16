@@ -5,6 +5,7 @@ const client = require("../db/index");
 
 describe("/api", () => {
   after(() => client.end());
+  // End-point: /api/areas
   describe("/areas", () => {
     // GET
     describe("GET()", () => {
